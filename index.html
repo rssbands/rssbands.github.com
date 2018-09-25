@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "ru">
     <head>
         <meta charset="UTF-8">
-        <title>Книги и другие ресурсы RS2018Q3</title>
-        <link href="./css/style.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-        <script src="./js/books.js" defer></script>
-        <script src="./js/main.js" defer></script>
+        <title>RSSBands</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <table id='table-books'>
-            <caption><h2>Доступные книги</h2></caption>
-            <thead>
-                <th id='book'>Книги</th>
-                <th id='description'></th>
-            </thead>
-            <tbody id='books'>
-            </tbody>
-        </table>
-        
-        <table id='table-links'>
-            <caption><h2>Ссылки на полезные ресурсы</h2></caption>
-            <thead>
-                <th id='topic'>Темы</th>
-                <th id='link'></th>
-            </thead>
-            <tbody id='links'>
-                <tr><td>FlexBox</td><td class='linkref'><a href='https://flexboxfroggy.com/' target="_blank">flexboxfroggy.com</a></td><tr>
-                <tr><td>FlexBox</td><td class='linkref'><a  href='http://www.flexboxdefense.com/' target="_blank">www.flexboxdefense.com</a></td><tr>
-                <tr><td>CSS Grid</td><td class='linkref'><a href='http://cssgridgarden.com/' target="_blank">cssgridgarden.com</td><tr>    
-            </tbody>
-        </table>
-
-    </body>
+        <header class='header-wrapper'></header>
+        <div class='rssbands-logo'></div>
+        <section class='menu'>
+            <h1 class='title'>RSSBands</h1>
+            <section class='menu-items'>
+                <a href="#library" class='menu-item'>
+                    <div class='icon_books'></div>
+                    <p>Books</p>
+                </a>
+                <div class='wip'>
+                    <div class='icon_articles'></div>
+                    <p>Articles</p>
+                </div>
+                <div class='wip'>
+                    <div class='icon_training'></div>
+                    <p>Flexbox & Grid training</p>
+                </div>
+                <div class='wip'>
+                    <div class='icon_interview'></div>
+                    <p>Interview</p>
+                </div>
+            </section>
+        </section>
+        <section id='library' class='library'>
+            <h1 class='title'>Books</h1>
+        </section>       
+</body>
+<script src="js/main.js"></script>
 </html>
