@@ -1,0 +1,80 @@
+* {
+   padding: 0;
+   margin: 0; 
+}
+
+body{
+   font-family: arial, sans-serif; 
+   background-color: #e3e3e3
+}
+
+/******************************/
+table {
+    width: 90%;
+    margin: 0 auto; /*С†РµРЅСЂРёСЂРѕРІР°РЅРёРµ*/
+    border-collapse: collapse; /*РґР»СЏ С‚РѕРіРѕ С‡С‚РѕР±С‹ РІРёРґРµРЅ Р±С‹Р» Р±РѕСЂРґРµСЂ*/
+}
+td {
+    border: 1px solid #bbb;
+    text-align: center; 
+}
+
+th{
+   height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******************************/
+
+#table-books {
+    margin-top: 5px;    
+}
+
+#book {  /* РєРѕР»РѕРЅРєР° СЃ РёР·РѕР±СЂР°Р¶РµРЅРёРµРј РєРЅРёРіРё*/
+    width: 100px;
+}
+
+.bookImage{
+    display: block;
+    width:   auto;
+    height:  100px;
+    margin:  0 auto;
+}
+
+.descripion {
+    display: block;
+    margin: 20px;
+}
+
+td div.description h3 { /* РЅР°Р·РІР°РЅРёРµ РєРЅРёРіРё */
+    margin: 5px ;
+}
+
+td div.description p { /* РѕРїРёСЃР°РЅРёРµ РєРЅРёРіРё */
+    width:   96%;   
+    height:  100px; 
+    padding: 5px 2% 0 2%;
+    margin:  0 0 5px 0;
+
+    overflow-y: scroll; 
+    text-align: justify;
+}
+
+/******************************/
+#table-links {
+    margin-top: 20px;
+    margin-bottom: 40px; 
+}
+
+#topic {
+    width: 200px;
+}
+
+.linkref {
+   text-align: left;
+   padding: 2px;
+}
+/******************************/
