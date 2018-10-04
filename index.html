@@ -4,35 +4,126 @@
         <meta charset="UTF-8">
         <title>RSSBands</title>
         <link rel="shortcut icon" href="img/RSSBands16x.ico" type="image/x-icon">
+        <style>
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/fontello.eot?60225826');
+            src: url('./font/fontello.eot?60225826#iefix') format('embedded-opentype'),
+            url('./font/fontello.woff?60225826') format('woff'),
+            url('./font/fontello.ttf?60225826') format('truetype'),
+            url('./font/fontello.svg?60225826#fontello') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            }
+        </style>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animation.css">
     </head>
     <body>
-        <header class='header-wrapper'></header>
+        <header class='header-wrapper'>
+            <section class='header-menu'>
+                <section class='header-items'>
+                    <div class='header-nav-desktop'>
+                        <a href="#library">Books</a>
+                        <a href="#library">Articles</a>
+                        <a href="#training">Training</a>
+                        <a href="#interview">Interview</a>  
+                        <a href="https://t.me/RSSBands" target="_blank"><i class="header-icon icon-ok-circled">&#xe801;</i></a>
+                    </div>
+                    <div class='header-icon-mobile'>
+                        <a href="#library"><i class="header-icon icon-ok-circled">&#xe80a;</i></a>
+                        <a href=""><i class="header-icon icon-ok-circled">&#xf0f6;</i></a>
+                        <a href="#training"><i class="header-icon icon-ok-circled">&#xf11e;</i></a>
+                        <a href="#interview" ><i class="header-icon icon-ok-circled">&#xe800;</i></a> 
+                        <a href="https://t.me/RSSBands" target="_blank"><i class="header-icon icon-ok-circled">&#xe801;</i></a>                    
+                    </div>
+                </section> 
+            </header>
         <div class='rssbands-logo'></div>
         <section class='menu'>
             <h1 class='title'>RSSBands</h1>
             <section class='menu-items'>
                 <a href="#library" class='menu-item'>
-                    <div class='icon_books'></div>
+                    <i class="demo-icon icon-ok-circled">&#xe80a;</i>
                     <p>Books</p>
                 </a>
                 <div class='wip'>
-                    <div class='icon_articles'></div>
-                    <p>Articles</p>
+                    <i class="demo-icon icon-ok-circled">&#xf0f6;</i>
+                    <p>Articles</p>                    
                 </div>
-                <div class='wip'>
-                    <div class='icon_training'></div>
-                    <p>Flexbox & Grid training</p>
-                </div>
-                <div class='wip'>
-                    <div class='icon_interview'></div>
-                    <p>Interview</p>
+                <a href="#training" class='menu-item'>
+                    <i class="demo-icon icon-ok-circled">&#xf11e;</i>
+                    <p>Training</p>                    
+                </a>
+                <a href="#interview" class='menu-item'>
+                        <i class="demo-icon icon-ok-circled">&#xe800;</i>
+                        <p>Interview</p> 
+                    </a>
+            </section>
+        </section> 
+        <section class='menu'>
+            <section class='menu-items'>
+                <div class='attention'>
+                    <i class="demo-icon icon-ok-circled">&#xe807;</i>
+                    <p>DEAR FRIENDS, LET'S COMMUNICATE! You are welcome to practice English together!</p>  
+                    <p> Мы планируем
+                        собраться 7 октября чтобы познакомиться друг с другом, обсудить таски и, конечно же,
+                        потренировать свой английский! 
+                    </p>
+                    <div class='links'>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScFiWWZdz-Q_Ce2RFclYDTKYZh2-BpOcq3h1dbktJu-vk3x1g/viewform"  target="_blank">Выбираем место встречи</a>
+                        <p>|</p>
+                        <a href="https://docs.google.com/spreadsheets/d/1WZjAjl3O2o5Ah9Aco1igi_JZZF4YJX4EWW8AjnJTCyY/edit#gid=0"  target="_blank">  Список желающих </a>
+                    </div>
                 </div>
             </section>
         </section>
-        <section id='library' class='library'>
+        <section id='library' class='section'>
             <h1 class='title'>Books</h1>
         </section>       
+        <section id = 'training' class = 'section'>
+            <h1 class='title'>Training</h1>
+            <section class='menu-items'>
+                <a href="http://flexboxfroggy.com/" target="_blank" class='menu-training'>
+                    <div class = 'trainingFlexboxFroggy'></div>
+                    <p>Flexbox Froggy</p>
+                </a>
+                <a href="http://www.flexboxdefense.com/" target="_blank"class='menu-training'>
+                    <div class = 'trainingFlexboxDefense'></div>
+                    <p>Flexbox Defense</p>                    
+                </a>
+                <a href="http://cssgridgarden.com/" target="_blank" class='menu-training'>
+                    <div class = 'trainingGridGarden'></div>
+                    <p>Grid Garden</p>                    
+                </a>
+                <a href="https://flukeout.github.io/" target="_blank" class='menu-training'>
+                    <div class = 'trainingCssDiner'></div>
+                    <p>CSS Diner</p>                    
+                </a>
+            </section>
+        </section>
+        <section id = 'interview' class = 'section'>
+            <h1 class='title'>Interview</h1>
+            <section class='menu-items'>
+                <div class='menu-interview'>
+                    <span>Уже на следующей неделе стартует технический скриниг. О том, какие темы будут на собеседовании, можно прочесть вот тут:</span>
+                    <a href="https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/technical-screening.md" target="_blank">Technical screening</a>
+                    <span>Ниже представлена подборка коротких статей, которые могут быть полезны при подготовке к собеседованию:</span>
+                    <a href="https://habr.com/post/87119/" target="_blank"> Основные понятия ООП (часть 1)</a>
+                    <a href="https://habr.com/post/87205/" target="_blank">Основные понятия ООП (часть 2)</a>
+                    <a href="http://mathhelpplanet.com/static.php?p=javascript-algoritmy-sortirovki" target="_blank">Алгоритмы сортировок на JavaScript</a>
+                    <a href="https://proglib.io/p/sort-gif/" target="_blank">Сортировки в гифках: 8 самых популярных алгоритмов</a>
+                    <a href="http://mathhelpplanet.com/static.php?p=javascript-algoritmy-poiska" target="_blank">Алгоритмы поиска на JavaScript</a>
+                    <a href="https://verkholantsev.gitbooks.io/data-structures/content/" target="_blank">Структуры данных на JavaScript </a>
+                    <a href="http://mathematichka.ru/school/functions/Function_Graph_Table.html"target="_blank">Элементарные функции и их графики</a>
+                    <a href="https://habr.com/post/280125/" target="_blank">REM vs EM </a>
+                    <a href="http://css.yoksel.ru/specifity/" target="_blank">Сколько весят селекторы CSS?</a>
+                    <a href="http://htmlbook.ru/content/edinitsy-izmereniya" target="_blank">Единицы измерения CSS</a>
+                    <a href="https://developer.mozilla.org/ru/docs/Web/CSS/box_model" target="_blank">Боксовая модель CSS</a>
+                </div>
+            </section>
+        </section>
+        <footer></footer>
 </body>
 <script src="js/main.js"></script>
 </html>

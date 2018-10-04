@@ -1,3 +1,73 @@
+  .demo-icon
+  {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4em;
+    speak: none;   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    height: 50px;
+    justify-content: center;
+}
+
+.header-items {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-items a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 7px;
+    background: #404040;
+    color: #fff;
+}
+
+.header-icon{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header-nav-desktop {
+    display: inline-block;
+
+}
+
+.header-icon-mobile {
+    display: none;
+}
 
 .rssbands-logo {
     background:url('../img/RSSBands.svg');
@@ -10,40 +80,42 @@
     left: 10%;
 }
 
-.icon_books {
-    background:url('../img/01books.png');
-    width: 60px;
+.trainingFlexboxFroggy {
+    background:url('../img/training/flexbox01.svg');
+    width: 80px;
     height: 60px;
     background-size: contain;
 }
 
-.icon_articles {
-    background:url('../img/04article.png');
+.trainingGridGarden {
+    background:url('../img/training/grid01.svg');
     width: 60px;
     height: 58px;    
     background-size: contain;
 }
 
-.icon_interview {
-    background:url('../img/03interview.png');
-    width: 110px;
+.trainingCssDiner {
+    background:url('../img/training/cssDiner.png');
+    width: 112px;
     height: 60px;    
     background-size: contain;
 }
 
-.icon_training {
-    background:url('../img/02training.png');
-    width: 50px;
+.trainingFlexboxDefense {
+    background:url('../img/training/flexbox02.png');
+    width: 53px;
     height: 60px;    
     background-size: contain;
 }
 
-.library {
+.section {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #ebebeb;
+    padding-bottom: 10px;
 }
+
 .book-row {
     display: flex;
     width: 80%;
@@ -70,6 +142,7 @@
     height: 120px;
     background-size: cover;
 }
+
 .book-description {
     display: flex;
     flex-direction: column;
@@ -83,6 +156,7 @@
 .book-cover > p{
     font-weight: bold;
 }
+
 .book-description > p:first-child {
     font-weight: bold;
 }
@@ -97,7 +171,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 
 .menu {
     display: flex;
@@ -130,7 +203,7 @@ a {
 }
 .menu-item {
     position: relative;
-    flex-basis: 200px;
+    flex-basis: 60px;
     flex-grow: 1;
     margin: 5px;
     font-size: 14px;
@@ -148,16 +221,49 @@ a {
     cursor: pointer;
 }
 
+.attention {
+    position: relative;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 14px;
+    padding: 20px;
+    
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 0 #e2e2e2;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.attention i {
+    color: #e5194c;
+}
+
+.attention p {
+    font-size: 1.2em;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.links a {
+    color: #e5194c;
+    font-size: 1.2em;
+    margin: 5px;
+    text-decoration: underline;
+}
 .menu-item:hover {
     background: rgb(247, 247, 247);
     color: #e5194c;
 }
-body {
-    display: block;
-    margin: 0px;
-}
-.wip {
-    filter: opacity(50%);
+
+.menu-training {
     position: relative;
     flex-basis: 200px;
     flex-grow: 1;
@@ -174,10 +280,89 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.menu-training:hover {
+    filter:none;
+    color: #e5194c;
+}
+
+.menu-interview {
+    position: relative;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 16px;
+    padding: 20px;
+    background: #fff;   
+    box-shadow: 0 2px 0 #e2e2e2;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;;
+    cursor: pointer;
+}
+
+.menu-interview a {
+    margin-left: 7px;
+    margin-top: 3px;
+}
+.menu-interview span {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+body {
+    display: block;
+    margin: 0px;
+}
+.wip {
+    filter: opacity(50%);
+    position: relative;
+    flex-basis: 60px;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 14px;
+    padding: 20px;
+    color: #999;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 0 #e2e2e2;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background: #141414;
 }
 @media screen and (max-width: 700px) {
     .rssbands-logo {
         width: 75px;
         height: 50px;
     }
+
+    .header-icon-mobile{
+        display: inline-block;
+    }
+
+    .header-nav-desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .rssbands-logo {
+        display: none;
+
+    }
+
+
 }
