@@ -1,15 +1,25 @@
 
-const books = document.getElementById('library');
+const books = document.getElementById('events');
 const articles = document.getElementById('articles');
 
-fetch("input.json")
+
+fetch("events.json")
 .then(response => response.json())
 .then(json => {
-    json.books.forEach(function({ bh, img, bs, bn, bd }) {
+    json.events.forEach(function({ bh, img, bs, bn, bd }) {
         createBooksLibrary(books, bh, img, bs, bn, bd);
     });
 }
 );
+
+// fetch("input.json")
+// .then(response => response.json())
+// .then(json => {
+//     json.books.forEach(function({ bh, img, bs, bn, bd }) {
+//         createBooksLibrary(books, bh, img, bs, bn, bd);
+//     });
+// }
+// );
 
 function createBooksLibrary(parent, bh, img, bs, bn, bd) {
     const bookRow = document.createElement('div');
@@ -28,7 +38,7 @@ function createBooksLibrary(parent, bh, img, bs, bn, bd) {
     const bookCoverIcon = document.createElement('div');
     bookLink.appendChild(bookCoverIcon);
     bookCoverIcon.classList.add('book-cover-icon');
-    bookCoverIcon.style.backgroundImage = 'url(img/books/' + img + ')'; 
+    bookCoverIcon.style.backgroundImage = 'url(img/events/' + img + ')'; 
 
     const bookDescription = document.createElement('div');
     bookRow.appendChild(bookDescription);
@@ -45,6 +55,10 @@ function createBooksLibrary(parent, bh, img, bs, bn, bd) {
     const bookTextDescription = document.createElement('p');
     bookDescription.appendChild(bookTextDescription);
     bookTextDescription.textContent = bd;
+
+    // const bookTextDop = document.createElement('p');
+    // bookDescription.appendChild(bookTextDop);
+    // bookTextDescription.textContent = ps;
 }
 
 

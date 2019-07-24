@@ -43,6 +43,42 @@
     color: #fff;
 }
 
+.links-item {
+    width: 80%;
+    padding: 10px;
+}
+
+.links-item a {
+    text-decoration: none;
+    display: inline-block;
+    //float:left;
+    margin: 0 10px 0 5px;
+    padding: 7px;
+    background: #404040;
+    color: #fff;
+    min-width: 100px;
+    text-align: center;
+
+}
+
+.list-music{
+    list-style:none;
+
+}
+
+.list-music li{
+    margin: 5px 0;
+}
+
+.yellow{
+   background-color: #FFE9B0;
+} 
+
+.links-item p {
+   font-size: 1.3em;
+
+}
+
 .header-icon{
     font-family: "fontello";
     font-style: normal;
@@ -132,15 +168,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 280px;
     margin-top: 12px;
 }
 
+.book-cover p{
+    font-size: 1.2em;
+}
+
 .book-cover-icon {
-    background:url('../img/books/book0.png');
-    width: 80px;
+    background:url('../img/books/book0.png') no-repeat;
+    width: 240px;
     height: 120px;
-    background-size: cover;
+    background-size: contain;
 }
 
 .book-description {
@@ -150,6 +190,7 @@
     flex-basis: 300px;
     margin-left: 12px;
     margin-right: 12px;
+    font-size: 1.2em;
     flex-grow: 1;
 }
 
@@ -294,7 +335,6 @@ a {
     flex-basis: 200px;
     flex-grow: 1;
     margin: 5px;
-    font-size: 16px;
     padding: 20px;
     background: #fff;   
     box-shadow: 0 2px 0 #e2e2e2;
@@ -309,10 +349,18 @@ a {
 .menu-interview a {
     margin-left: 7px;
     margin-top: 3px;
+    font-size: 1.2em;
+    margin: 5px 0;
+    background-color: #ffe9b0;
 }
 .menu-interview span {
     margin-top: 7px;
     margin-bottom: 7px;
+    font-size: 1.3em;
+}
+
+.menu-interview span a{
+     font-size: 1em;
 }
 body {
     display: block;
