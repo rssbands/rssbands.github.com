@@ -1,13 +1,6 @@
 {
     "events": [
-        { 
-            "bn":"митап Front-end Talks",
-            "bh":"https://events.dev.by/front-end-talks",     
-            "bs":"25 июля" ,        
-            "img":"leverx.jpg",      
-            "bd": "Для вас выступят представители компаний LeverX Group и Capsilon:  Владимир Прищеп (Software Engeneer, LeverX Group), Павел Никитюк (Software Engeneer, LeverX Group), Цебро Александр (Product Designer, Capsilon). Темы докладов: AR and CV cooperation, Current state of AR and CV in web, Паттерны проектирования пользовательских интерфейсов"
-        },
-        { 
+       { 
             "bn":"Рили Трули Айти Фест",       
             "bh":"https://www.facebook.com/events/338132280439895/",     
             "bs":"27 июля" ,        
