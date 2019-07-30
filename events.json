@@ -5,19 +5,7 @@
             "bh":"https://events.dev.by/angular-minsk-meetup-2",     
             "bs":"6 Августа 19:00 - 21:00" ,        
             "img":"eventangular.jpg",      
-            "bd": "В программе:
-
-– Modern e2e testing with Cypress.io, Илья Рябчинский – frontend-разработчик.
-
-Илья расскажет о том, как можно тестировать ваши интерфейсы (почти) без боли.
-
-– Настоящее и будущее компилятора Angular, Роман Колесников – хардкорный C++ программист, перешедший на темную сторону веб-разработки.
-
-Роман расскажет про новый компилятор Angular Ivy и его перспективы. Вы узнаете о грядущих фундаментальных улучшениях в Angular и научитесь компилировать шаблоны прямо в браузере.
-
-– GraphQL and how to use it with Apollo Angular and Redux, Дмитрий Грачёв – full-stack developer в SaM Solutions, JS ментор.
-
-Дмитрий расскажет про GraphQL и Apollo client, как с ними работать, а также, как включить эту связку в проект с angular-redux/store."
+            "bd": "В программе: – Modern e2e testing with Cypress.io, Илья Рябчинский – frontend-разработчик. Илья расскажет о том, как можно тестировать ваши интерфейсы (почти) без боли. – Настоящее и будущее компилятора Angular, Роман Колесников – хардкорный C++ программист, перешедший на темную сторону веб-разработки. Роман расскажет про новый компилятор Angular Ivy и его перспективы. Вы узнаете о грядущих фундаментальных улучшениях в Angular и научитесь компилировать шаблоны прямо в браузере. – GraphQL and how to use it with Apollo Angular and Redux, Дмитрий Грачёв – full-stack developer в SaM Solutions, JS ментор. Дмитрий расскажет про GraphQL и Apollo client, как с ними работать, а также, как включить эту связку в проект с angular-redux/store."
         },
         { 
             "bn":"The Rolling Scopes Conference",       
