@@ -387,10 +387,31 @@ body {
 }
 
 footer {
-    height: 40px;
+    min-height: 40px;
     width: 100%;
     background: #141414;
 }
+.footer-contacts{
+    width:80%;
+
+}
+
+.mail{
+    
+    width:100px;
+    float:right;
+    padding-top:10px; 
+    font-size: 1.2em;
+    
+
+}
+
+.mail a{
+
+    color:white !important;
+    text-decoration:none;
+}
+
 @media screen and (max-width: 700px) {
     .rssbands-logo {
         width: 75px;
